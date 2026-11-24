@@ -2089,7 +2089,11 @@ def main():
         all_urls.append(f"/{fname}")
     print("Generated legal trust & AdSense compliance pages.")
 
-    # 11. Generate Sitemap & Robots.txt
+    # 11. Generate Google Site Verification file
+    (DIST_DIR / "googledeea6fd5dca6c53b.html").write_text("google-site-verification: googledeea6fd5dca6c53b.html", encoding="utf-8")
+    print("Generated googledeea6fd5dca6c53b.html")
+
+    # 12. Generate Sitemap & Robots.txt
     generate_sitemap_and_robots(all_urls)
     print(f"Generated sitemap.xml with {len(all_urls)} URLs and robots.txt.")
 
