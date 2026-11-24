@@ -11,12 +11,13 @@ import os
 import re
 import html
 import datetime
+import urllib.parse
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 DIST_DIR = BASE_DIR / "dist"
-SITE_URL = "https://techspec-site.pages.dev"
+SITE_URL = "https://techspec-site.mohdfaizidd05.workers.dev"
 SITE_NAME = "TechSpec India"
 SITE_TAGLINE = "Windows Gaming Laptops, GPUs & PC Gear Specs in India"
 AMAZON_TAG = "YOUR_TAG-21"
@@ -36,10 +37,9 @@ def format_inr(val):
     return f"₹{','.join(parts)},{last}"
 
 def get_amazon_link(query, asin=None):
-    if asin:
-        return f"https://www.amazon.in/dp/{asin}?tag={AMAZON_TAG}"
-    clean_q = re.sub(r'[^a-zA-Z0-9\s]', '', query)
-    q_encoded = "+".join(clean_q.split())
+    # Always use clean, URL-encoded Amazon India search URLs to prevent broken 404 /dp/ pages
+    clean_q = re.sub(r'[^a-zA-Z0-9\s\+\-]', ' ', query).strip()
+    q_encoded = urllib.parse.quote_plus(" ".join(clean_q.split()))
     return f"https://www.amazon.in/s?k={q_encoded}&tag={AMAZON_TAG}"
 
 def load_data():
@@ -1839,8 +1839,8 @@ def generate_legal_pages():
       <div class="pros-box" style="border-color:var(--border-color);">
         <h4 style="color:#fff;">Email Contact</h4>
         <p style="color:var(--text-muted); margin-bottom:1rem;">For editorial feedback, price tracker suggestions, and partnerships:</p>
-        <p><strong class="text-cyan">editorial@techspec-site.pages.dev</strong></p>
-        <p style="margin-top:0.5rem;"><strong class="text-emerald">faiz@techspec-site.pages.dev</strong></p>
+        <p><strong class="text-cyan">editorial@techspec-site.mohdfaizidd05.workers.dev</strong></p>
+        <p style="margin-top:0.5rem;"><strong class="text-emerald">faiz@techspec-site.mohdfaizidd05.workers.dev</strong></p>
       </div>
       <div class="pros-box" style="border-color:var(--border-color);">
         <h4 style="color:#fff;">Operating Location</h4>
@@ -1859,7 +1859,7 @@ def generate_legal_pages():
     <h1>Privacy Policy</h1>
     <p style="color:var(--text-muted); margin-bottom:2rem;">Last Updated: November 2026</p>
 
-    <p>At <strong>TechSpec India</strong> (accessible from <code>https://techspec-site.pages.dev</code>), the privacy of our visitors is of paramount importance to us. This Privacy Policy document outlines the types of information that is collected and recorded by TechSpec and how we use it.</p>
+    <p>At <strong>TechSpec India</strong> (accessible from <code>https://techspec-site.mohdfaizidd05.workers.dev</code>), the privacy of our visitors is of paramount importance to us. This Privacy Policy document outlines the types of information that is collected and recorded by TechSpec and how we use it.</p>
 
     <h3 style="margin-top:1.5rem;">Log Files</h3>
     <p>TechSpec follows a standard procedure of using log files provided by our CDN host (Cloudflare Pages). These files log visitors when they visit websites. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable.</p>

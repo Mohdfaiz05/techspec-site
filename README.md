@@ -2,7 +2,7 @@
 
 A high-performance, AdSense-ready, and SEO-optimized static website focused on Windows Gaming Laptops, GPUs, and PC Accessories in India.
 
-Hosted 100% free with ultra-low latency on [Cloudflare Pages](https://pages.cloudflare.com/) at `https://techspec-site.pages.dev`.
+Hosted 100% free with ultra-low latency on [Cloudflare Pages](https://pages.cloudflare.com/) at `https://techspec-site.mohdfaizidd05.workers.dev`.
 
 ---
 
