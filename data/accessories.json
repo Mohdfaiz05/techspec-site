@@ -1,0 +1,228 @@
+[
+  {
+    "slug": "crucial-16gb-ddr5-5600mhz-sodimm",
+    "name": "Crucial 16GB DDR5 5600MHz SO-DIMM Laptop RAM (CT16G56C46S5)",
+    "category": "RAM Upgrades",
+    "type": "DDR5",
+    "price_inr": 3899,
+    "rating": 4.7,
+    "review_count": 5420,
+    "amazon_asin": "B0BLTG7Q62",
+    "amazon_search_query": "Crucial 16GB DDR5 5600MHz SODIMM Laptop RAM",
+    "badge": "Top DDR5 Upgrade Pick",
+    "speed": "5600MHz (Downclocks automatically to 4800MHz or 5200MHz if required)",
+    "form_factor": "262-pin SODIMM",
+    "voltage": "1.1V",
+    "ideal_for": "Upgrading Lenovo LOQ, ASUS TUF A15/F15, Acer Nitro V, and HP Victus DDR5 laptops to 32GB dual-channel.",
+    "pros": [
+      "Industry-standard Micron die quality with rock-solid stability",
+      "Plug-and-play installation without BIOS tweaking required",
+      "Downclocking backwards compatibility for 4800MHz and 5200MHz systems",
+      "Significant 10-15% 1% low FPS boost in memory-sensitive games"
+    ],
+    "cons": [
+      "Not compatible with older DDR4 laptop motherboards"
+    ]
+  },
+  {
+    "slug": "crucial-16gb-ddr4-3200mhz-sodimm",
+    "name": "Crucial 16GB DDR4 3200MHz SO-DIMM Laptop RAM (CT16G4SFRA32A)",
+    "category": "RAM Upgrades",
+    "type": "DDR4",
+    "price_inr": 2599,
+    "rating": 4.6,
+    "review_count": 18900,
+    "amazon_asin": "B08C56KXQJ",
+    "amazon_search_query": "Crucial 16GB DDR4 3200MHz SODIMM Laptop RAM",
+    "badge": "Best Budget DDR4 Upgrade",
+    "speed": "3200MHz (CL22)",
+    "form_factor": "260-pin SODIMM",
+    "voltage": "1.2V",
+    "ideal_for": "ASUS TUF F15 (11th Gen), HP Victus 15 (Ryzen 5600H), MSI Thin 15, and Acer Aspire 7.",
+    "pros": [
+      "Ultra-affordable upgrade to eliminate 8GB bottlenecking",
+      "Rock-solid compatibility across Intel 11th/12th Gen and AMD Ryzen 5000",
+      "Plug & play 3200MHz JEDEC standard",
+      "Limited lifetime warranty by Crucial"
+    ],
+    "cons": [
+      "Only for DDR4 laptops"
+    ]
+  },
+  {
+    "slug": "kingston-fury-impact-16gb-ddr5-4800mhz",
+    "name": "Kingston FURY Impact 16GB DDR5 4800MHz CL38 SODIMM",
+    "category": "RAM Upgrades",
+    "type": "DDR5",
+    "price_inr": 4199,
+    "rating": 4.8,
+    "review_count": 2340,
+    "amazon_asin": "B09T8V49KR",
+    "amazon_search_query": "Kingston FURY Impact 16GB DDR5 4800MHz CL38 SODIMM",
+    "badge": "Low Latency Gaming RAM",
+    "speed": "4800MHz with tight CL38 timings",
+    "form_factor": "262-pin SODIMM",
+    "voltage": "1.1V",
+    "ideal_for": "Enthusiasts seeking lower memory latency for competitive CS2, Valorant, and Warzone.",
+    "pros": [
+      "Lower CL38 latency than generic CL40/CL46 sticks",
+      "Automatic Plug N Play overclocking functionality",
+      "Intel XMP 3.0 ready with sleek black thermal label"
+    ],
+    "cons": [
+      "Slight price premium over standard Crucial modules"
+    ]
+  },
+  {
+    "slug": "wd-black-sn770-1tb-gen4-nvme-ssd",
+    "name": "Western Digital WD_BLACK SN770 1TB PCIe Gen4 NVMe M.2 SSD",
+    "category": "SSD Upgrades",
+    "type": "NVMe SSD",
+    "price_inr": 6299,
+    "rating": 4.8,
+    "review_count": 14200,
+    "amazon_asin": "B09QV692XY",
+    "amazon_search_query": "WD Black SN770 1TB NVMe M.2 Gen4 SSD",
+    "badge": "Fastest Gen4 Gaming SSD",
+    "speed": "Read speeds up to 5,150 MB/s, Write speeds up to 4,900 MB/s",
+    "form_factor": "M.2 2280 PCIe Gen4 x4",
+    "voltage": "3.3V",
+    "ideal_for": "Adding high-speed secondary storage to Lenovo LOQ, ASUS TUF, Acer Nitro, and Predator laptops.",
+    "pros": [
+      "Blazing 5,150 MB/s read speed reduces game load times drastically",
+      "Exceptional thermal efficiency (runs remarkably cool inside laptop chassis)",
+      "WD Dashboard software with Game Mode support",
+      "5-Year Western Digital manufacturer warranty"
+    ],
+    "cons": [
+      "DRAM-less architecture (though HMB technology largely compensates)"
+    ]
+  },
+  {
+    "slug": "crucial-p3-plus-1tb-gen4-nvme-ssd",
+    "name": "Crucial P3 Plus 1TB PCIe 4.0 3D NAND NVMe M.2 SSD",
+    "category": "SSD Upgrades",
+    "type": "NVMe SSD",
+    "price_inr": 5199,
+    "rating": 4.6,
+    "review_count": 22100,
+    "amazon_asin": "B0B25NXWC7",
+    "amazon_search_query": "Crucial P3 Plus 1TB PCIe 4.0 NVMe M.2 SSD",
+    "badge": "Best Value 1TB SSD",
+    "speed": "Read speeds up to 5,000 MB/s, Write speeds up to 4,200 MB/s",
+    "form_factor": "M.2 2280 PCIe Gen4 x4",
+    "voltage": "3.3V",
+    "ideal_for": "Budget-conscious laptop owners needing ample 1TB storage for expanding their Steam & Epic library.",
+    "pros": [
+      "Unbeatable price-to-capacity ratio for PCIe Gen4",
+      "Up to 8.9x faster than SATA and 43% faster than Gen3 NVMe",
+      "Low power consumption ideal for preserving laptop battery life"
+    ],
+    "cons": [
+      "QLC NAND slows down during sustained multi-hundred gigabyte writes"
+    ]
+  },
+  {
+    "slug": "razer-deathadder-essential-gaming-mouse",
+    "name": "Razer DeathAdder Essential Ergonomic Wired Gaming Mouse",
+    "category": "Gaming Mice",
+    "type": "Mouse",
+    "price_inr": 1199,
+    "rating": 4.5,
+    "review_count": 31400,
+    "amazon_asin": "B094PS5RZQ",
+    "amazon_search_query": "Razer DeathAdder Essential Gaming Mouse Black",
+    "badge": "Best Grip Under ₹1,500",
+    "speed": "6,400 DPI Optical Sensor, 220 IPS, 30G acceleration",
+    "form_factor": "Right-Handed Ergonomic Wired",
+    "voltage": "USB Wired",
+    "ideal_for": "Palm and claw grip gamers seeking unmatched hand comfort for marathon FPS sessions.",
+    "pros": [
+      "Legendary ergonomic shape perfected over a decade by Razer",
+      "Tactile mechanical switches rated for 10 million clicks",
+      "5 independently programmable Hyperesponse buttons",
+      "Crisp green Razer LED lighting"
+    ],
+    "cons": [
+      "Rubberized cable is slightly stiffer than modern paracord cables",
+      "Single color green lighting (not full Chroma RGB)"
+    ]
+  },
+  {
+    "slug": "logitech-g102-lightsync-gaming-mouse",
+    "name": "Logitech G102 Light Sync Gaming Mouse with Customizable RGB",
+    "category": "Gaming Mice",
+    "type": "Mouse",
+    "price_inr": 1399,
+    "rating": 4.6,
+    "review_count": 48900,
+    "amazon_asin": "B08953W6HY",
+    "amazon_search_query": "Logitech G102 Light Sync Gaming Mouse",
+    "badge": "India's #1 Esports Mouse",
+    "speed": "8,000 DPI Gaming-Grade Optical Sensor",
+    "form_factor": "Classic Ambidextrous 85g",
+    "voltage": "USB Wired",
+    "ideal_for": "Valorant, CS2, and Apex Legends esports gamers with fingertip or claw grip.",
+    "pros": [
+      "Flawless 8,000 DPI tracking sensor with zero smoothing/acceleration",
+      "Lightweight 85-gram chassis for rapid flick shots",
+      "Vibrant full-spectrum LIGHTSYNC RGB wave lighting",
+      "Tensioned metal spring mechanical button click feeling"
+    ],
+    "cons": [
+      "Small egg shape may feel cramped for very large hands"
+    ]
+  },
+  {
+    "slug": "hyperx-cloud-stinger-2-gaming-headset",
+    "name": "HyperX Cloud Stinger 2 Wired Gaming Headset with DTS Headphone:X",
+    "category": "Gaming Audio",
+    "type": "Headphones",
+    "price_inr": 2890,
+    "rating": 4.5,
+    "review_count": 8700,
+    "amazon_asin": "B0B8Z7Z1ZZ",
+    "amazon_search_query": "HyperX Cloud Stinger 2 Wired Gaming Headset DTS",
+    "badge": "Best Comfort Under ₹3k",
+    "speed": "50mm Directional Drivers, 10Hz–28kHz Frequency Response",
+    "form_factor": "Over-Ear Closed Back Lightweight (275g)",
+    "voltage": "3.5mm Analog Audio",
+    "ideal_for": "Gamers wanting signature HyperX memory foam comfort and accurate positional audio footsteps.",
+    "pros": [
+      "Signature HyperX memory foam and premium leatherette ear cushions",
+      "Swivel-to-mute noise-canceling microphone is intuitive and clear",
+      "Includes 2 years of DTS Headphone:X Spatial Audio spatialization license",
+      "Very lightweight at only 275g with 90-degree rotating earcups"
+    ],
+    "cons": [
+      "Primarily plastic build construction",
+      "Cable is non-detachable"
+    ]
+  },
+  {
+    "slug": "redgear-cosmo-7-1-gaming-headphones",
+    "name": "Rgear Cosmo 7.1 USB Gaming Headphones with RGB & Hardware Mic",
+    "category": "Gaming Audio",
+    "type": "Headphones",
+    "price_inr": 1599,
+    "rating": 4.3,
+    "review_count": 27400,
+    "amazon_asin": "B079S811J3",
+    "amazon_search_query": "Redgear Cosmo 7.1 USB Gaming Headphones",
+    "badge": "Budget 7.1 Surround King",
+    "speed": "50mm Neodymium Drivers, Hardware 7.1 Virtual Surround Sound",
+    "form_factor": "Over-Ear with Breathing RGB LED",
+    "voltage": "USB Interface",
+    "ideal_for": "Budget gamers looking for deep bass, USB connectivity, and stylish RGB earcups under ₹1,800.",
+    "pros": [
+      "Hardware-level 7.1 virtual surround sound for enhanced immersion",
+      "Integrated noise-canceling boom mic with in-line remote controller",
+      "Thick memory foam ear cushions block external room noise",
+      "Heavy braided USB cable with gold plated connector"
+    ],
+    "cons": [
+      "Slightly bulky form factor",
+      "USB connector means it cannot be plugged into standard 3.5mm phone jacks"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.venv/
+env/
+venv/
+.env
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Explicitly ensure dist is tracked
+!dist/
