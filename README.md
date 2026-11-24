@@ -19,7 +19,7 @@ Hosted 100% free with ultra-low latency on [Cloudflare Pages](https://pages.clou
 2. **Centralized Affiliate Management:**
    - Edit `AMAZON_TAG` at the top of `dist/config.js` or in `build_site.py`:
      ```javascript
-     const AMAZON_TAG = "YOUR_TAG-21";
+     const AMAZON_TAG = "techspecin05-21";
      ```
    - Automatically tracks across all outbound Amazon.in links.
 

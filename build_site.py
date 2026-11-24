@@ -20,7 +20,7 @@ DIST_DIR = BASE_DIR / "dist"
 SITE_URL = "https://techspec-site.mohdfaizidd05.workers.dev"
 SITE_NAME = "TechSpec India"
 SITE_TAGLINE = "Windows Gaming Laptops, GPUs & PC Gear Specs in India"
-AMAZON_TAG = "YOUR_TAG-21"
+AMAZON_TAG = "techspecin05-21"
 
 def format_inr(val):
     s = str(int(val))

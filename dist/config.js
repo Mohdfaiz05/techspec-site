@@ -1,6 +1,6 @@
 // Centralized Affiliate Configuration for TechSpec India
 // Change the Amazon Associate tag here to update all buy links across the entire site instantly.
-const AMAZON_TAG = "YOUR_TAG-21";
+const AMAZON_TAG = "techspecin05-21";
 
 // Dynamic helper: automatically appends or updates the tracking tag on any Amazon link clicked
 document.addEventListener("DOMContentLoaded", () => {
